@@ -26,6 +26,8 @@ int main(){
       cout<<arr[i]<<" ";
    }
 
+   cout<<"Thank you";
+
    
    return 0;
 }
