@@ -1,27 +1,11 @@
 #include<iostream>
 using namespace std;
 
-int indexSearch(int arr[], int n, int key){
-    for(int i=0; i<n; i++){
-        if(arr[i]==key){
-            return i;
-        }
-    }
-    return -1;
-}
 
 int main(){
-   int n;
-   cin>>n;
-
-   int arr[n];
-   for(int i=0; i<n; i++){
-    cin>>arr[i];
-   }
-
-   int key;
-   cin>>key;
-
-   cout<<indexSearch(arr, n, key)<<endl;
+   int n1,n2;
+   cin>>n1,n2;
+   cout<<n1+n2<<endl;
+   
    return 0;
 }
