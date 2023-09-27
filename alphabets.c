@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 void main(){
-	char ca=65 , sa=97;
+	char ca=65,sa=97;
 	while(ca<='Z'){
 		printf("%c ", ca);
 		ca++;
