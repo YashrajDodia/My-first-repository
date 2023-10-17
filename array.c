@@ -1,21 +1,18 @@
 #include<stdio.h>
-
 void main(){
-    int n,i,j;
-    printf("Enter a number : ");
-    scanf("%d", &n);
-    int arr[n],temp;
-    for(i=0;i<n;i++){
-    	printf("enter arr[%d] : ", i);
-    	scanf("%d", &arr[i]);
-    	
+	int i,j,n1;
+	printf("enter a number : ");
+	scanf("%d",&n1);
+	
+	int arr[n1],arra[n1];
+	for(i=0;i<n1;i++){
+		printf("enter arr[%d] : ",i);
+		scanf("%d", &arr[i]);
 	}
-	 temp=arr[0];
-	 
-	for(j=n-1;j>=0;j--){
-		if(temp<arr[j]){
-			temp=arr[j];
-		}
+	for(i=0;i<n1;i++){
+		arra[i]=arr[i];
+	}for(i=0;i<n1;i++){
+		printf("arra[%d] : %d \n",i, arra[i]);
 	}
-	printf("max number in array is : %d", temp);
+	
 }
